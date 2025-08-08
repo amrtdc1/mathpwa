@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Practice PWA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="manifest.json" />
+</head>
+<body>
+  <!-- Home Page -->
+<div id="feedbackBanner" class="feedback-banner"></div>
+
+<div id="home" class="view">
+	<button onclick="toggleDarkMode()" id="darkModeToggle">☾ Dark Mode</button>
+    <h1>Choose a Math Operation</h1>
+    <div class="button-group">
+      <button onclick="selectOperation('+')">➕ Add</button>
+      <button onclick="selectOperation('-')">➖ Subtract</button>
+      <button onclick="selectOperation('*')">✖ Multiply</button>
+      <button onclick="selectOperation('/')">➗ Divide</button>
+    </div>
+  </div>
+
+  <!-- Options Page -->
+  <div id="options" class="view" style="display:none;">
+    <h2>Set Your Math Options</h2>
+
+    <div class="input-group">
+      <label>First Number Min: <input id="firstMin" type="number" value="1" /></label>
+      <label>First Number Max: <input id="firstMax" type="number" value="10" /></label>
+    </div>
+
+    <div class="input-group">
+      <label>Second Number Min: <input id="secondMin" type="number" value="1" /></label>
+      <label>Second Number Max: <input id="secondMax" type="number" value="10" /></label>
+    </div>
+
+    <div class="input-group">
+      <label>Number of Problems: <input id="numProblems" type="number" value="5" /></label>
+    </div>
+
+    <button onclick="startProblems()">Start</button>
+    <button onclick="goHome()">Back</button>
+  </div>
+
+  <!-- Problems Page -->
+  <div id="problems" class="view" style="display:none;">
+    <h2>Solve the Problem</h2>
+    <div id="problemDisplay" class="problem-text">Loading...</div>
+
+    <div id="answerInput" class="answer-box">_</div>
+
+<div class="number-pad">
+  <button onclick="pressNum(1)">1</button>
+  <button onclick="pressNum(2)">2</button>
+  <button onclick="pressNum(3)">3</button>
+  <button onclick="pressNum(4)">4</button>
+  <button onclick="pressNum(5)">5</button>
+  <button onclick="pressNum(6)">6</button>
+  <button onclick="pressNum(7)">7</button>
+  <button onclick="pressNum(8)">8</button>
+  <button onclick="pressNum(9)">9</button>
+  <button onclick="clearAnswer()">Del</button>
+  <button onclick="pressNum(0)">0</button>
+  <button onclick="pressDecimal()">.</button>
+</div>
+
+<div class="submit-button">
+  <button onclick="submitAnswer()">Submit</button>
+</div>
+
+
+    <div id="feedback" class="feedback-text"></div>
+  </div>
+
+  <!-- Final Score Page -->
+  <div id="score" class="view" style="display:none;">
+    <h2>All Done!</h2>
+    <div id="scoreSummary" class="score-text">Calculating...</div>
+    <button onclick="goHome()">Back to Home</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
