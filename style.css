@@ -1,13 +1,13 @@
 body {
   background-color: #fff;
-  color: #000;
+  color: #000000;
   font-family: monospace;
   text-align: center;
   padding: 2rem;
 }
 
 body.dark-mode {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -17,7 +17,7 @@ body.dark-mode button {
 }
 
 body.dark-mode button:hover {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -50,8 +50,8 @@ h1, h2 {
 
 button {
   background: none;
-  border: 2px solid #000;
-  color: #000;
+  border: 2px solid #000000;
+  color: #000000;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   cursor: pointer;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -111,9 +111,9 @@ input {
 .submit-button button {
   padding: 1rem;
   font-size: 1.5rem;
-  border: 2px solid #000;
+  border: 2px solid #000000;
   background: none;
-  color: #000;
+  color: #000000;
   cursor: pointer;
   width: 100%;
 }
@@ -125,7 +125,7 @@ input {
 
 
 .number-pad button:hover {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -143,8 +143,8 @@ input {
 #darkModeToggle {
   font-size: 1.2em;
   background: none;
-  border: 2px solid #000;
-  color: #000;
+  border: 2px solid #000000;
+  color: #000000;
   padding: 0.5em 1em;
   cursor: pointer;
   margin-bottom: 1rem;
@@ -161,17 +161,17 @@ body.dark-mode #darkModeToggle {
   left: 0;
   right: 0;
   background-color: #fff;
-  color: #000;
+  color: #000000;
   font-size: 1.5rem;
   text-align: center;
   padding: 0.75rem;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000000;
   display: none;
   z-index: 1000;
 }
 
 body.dark-mode .feedback-banner {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
   border-bottom: 2px solid #fff;
 }
