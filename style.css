@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000000;
   font-family: monospace;
   text-align: center;
@@ -8,28 +8,28 @@ body {
 
 body.dark-mode {
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
 }
 
 body.dark-mode button {
-  border-color: #fff;
-  color: #fff;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 body.dark-mode button:hover {
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
 }
 
 body.dark-mode .answer-box {
-  border-color: #fff;
+  border-color: #ffffff;
 }
 
 body.dark-mode input {
   background-color: #111;
   background: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 
@@ -60,7 +60,7 @@ button {
 
 button:hover {
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
 }
 
 .input-group {
@@ -126,7 +126,7 @@ input {
 
 .number-pad button:hover {
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
 }
 
 .feedback-text {
@@ -151,8 +151,8 @@ input {
 }
 
 body.dark-mode #darkModeToggle {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 .feedback-banner {
@@ -160,7 +160,7 @@ body.dark-mode #darkModeToggle {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000000;
   font-size: 1.5rem;
   text-align: center;
@@ -172,7 +172,7 @@ body.dark-mode #darkModeToggle {
 
 body.dark-mode .feedback-banner {
   background-color: #000000;
-  color: #fff;
-  border-bottom: 2px solid #fff;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
