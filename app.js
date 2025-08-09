@@ -103,6 +103,14 @@ function pressDecimal() {
   }
 }
 
+// Handle negative input
+function pressNeg() {
+  if (!userAnswer.includes('-')) {
+    userAnswer += '-';
+    document.getElementById('answerInput').textContent = userAnswer;
+  }
+}
+
 // Clear input
 function clearAnswer() {
   userAnswer = "";
