@@ -83,7 +83,7 @@ function generateProblems() {
 // Display current problem
 function showProblem() {
   const problem = problems[currentProblemIndex];
-  document.getElementById('problemDisplay').textContent = `${problem.a} ${problemSettings.operation} ${problem.b} = ?`;
+  document.getElementById('problemDisplay').textContent = `${problem.a} ${problemSettings.operation} ${problem.b} =`;
   userAnswer = "";
   document.getElementById('answerInput').textContent = "_";
   document.getElementById('feedbackBanner').style.display = 'none';
